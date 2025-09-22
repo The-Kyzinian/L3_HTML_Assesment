@@ -1,0 +1,54 @@
+html {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 0.02px;
+    background-color: rgb(130, 10, 10);
+    text-align: center;
+    color: rgb(255,210,0);
+    font-weight: 900;
+    font-size: 2em;
+}
+
+footer {
+    padding: 5px;
+    background-color: rgb(130, 10, 10);
+    color: rgb(200, 200, 200);
+}
+
+a:link {
+    color: rgb(210, 165, 0);
+}
+
+a:visited {
+    color: rgb(145, 120, 0);
+}
+
+td {
+    vertical-align: top;
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+    margin-top: 0.01em;
+}
+
+li {
+    color: rgb(130, 10, 10);
+}
+
+h2 {
+    color: rgb(130, 10, 10);
+    margin-top: 0.01em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    color: rgb(255,210,0);
+}
+
+.nav {
+    background-color: rgb(200, 200, 200);
+}
