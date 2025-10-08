@@ -1,5 +1,5 @@
 // Fetch events from Events.json and render as a list
-fetch('./Events.json')
+fetch('./Resources/Events.json')
   .then(response => response.json())
   .then(events => {
     const container = document.getElementById('event-list');

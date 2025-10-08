@@ -220,5 +220,20 @@ img.hover-shadow {
 }
 .event-list-item span {
     margin-right: 10px;
+    color: rgb(210, 165, 0);
 }
 
+.contact {
+    margin: 0 10%;
+    text-align: center;
+}
+
+.contact strong {
+    color: rgb(130, 10, 10);
+    margin-bottom: 10%;
+}
+
+.contact em {
+    font-weight: bold;
+    font-style: normal;
+}
