@@ -10,92 +10,90 @@
     <header>
         <h1>HHS Drama Department</h1>
     </header>
-    <table width="100%">
-        <tr>
-            <td width="85%">
-                <section class="info"><br>
-                    The Henderson High School Drama Department provides a comprehensive arts education aligned 
-                    with the NCEA curriculum, focusing on developing practical skills and building student 
-                    confidence.<br><br>
-                    Students engage in both scripted and devised drama, with junior courses establishing 
-                    fundamental techniques like voice, movement, and dramatic conventions. The senior program 
-                    progresses to advanced performance skills, knowledge of specific theatre forms, and the 
-                    exploration of drama practitioners. The department actively participates in co-curricular 
-                    activities like the annual senior dramatic play and Showquest, offering numerous 
-                    opportunities for students to build stage presence, technical skills (lighting, sound), 
-                    and vital soft skills like collaboration and self-management.
-                </section>
-                <br><br>
-                <section>
-                    <!-- Images used to open the lightbox -->
-                    <div class="row">
-                        <div class="column">
-                            <img src="./Resources/Images/perfomance.png" height="200px" alt="A person acting on stage"
-                                author="Obtained from Ms Tucker" onclick="openModal();currentSlide(1)" 
-                                class="hover-shadow">
-                        </div>
-                        <div class="column">
-                            <img src="./Resources/Images/stage.png" height="200px" alt="A drama class's stage"
-                                author="Made by Google Gemini" onclick="openModal();currentSlide(2)" 
-                                class="hover-shadow">
-                        </div>
-                        <div class="column">
-                            <img src="./Resources/Images/script_read.png" height="200px" alt="A person reading a script"
-                                author="Made by Google Gemini" onclick="openModal();currentSlide(3)" 
-                                class="hover-shadow">
-                        </div>
-                    </div><br>
+    <section class="container">
+        <section width="85%" class="content">
+            <section class="info"><br>
+                The Henderson High School Drama Department provides a comprehensive arts education aligned 
+                with the NCEA curriculum, focusing on developing practical skills and building student 
+                confidence.<br><br>
+                Students engage in both scripted and devised drama, with junior courses establishing 
+                fundamental techniques like voice, movement, and dramatic conventions. The senior program 
+                progresses to advanced performance skills, knowledge of specific theatre forms, and the 
+                exploration of drama practitioners. The department actively participates in co-curricular 
+                activities like the annual senior dramatic play and Showquest, offering numerous 
+                opportunities for students to build stage presence, technical skills (lighting, sound), 
+                and vital soft skills like collaboration and self-management.
+            </section>
+            <br>
+            <section>
+                <!-- Images used to open the lightbox -->
+                <div class="row">
+                    <div class="column">
+                        <img src="./Resources/Images/perfomance.png" height="200px" alt="A person acting on stage"
+                            author="Obtained from Ms Tucker" onclick="openModal();currentSlide(1)" 
+                            class="hover-shadow">
+                    </div>
+                    <div class="column">
+                        <img src="./Resources/Images/stage.png" height="200px" alt="A drama class's stage"
+                            author="Made by Google Gemini" onclick="openModal();currentSlide(2)" 
+                            class="hover-shadow">
+                    </div>
+                    <div class="column">
+                        <img src="./Resources/Images/script_read.png" height="200px" alt="A person reading a script"
+                            author="Made by Google Gemini" onclick="openModal();currentSlide(3)" 
+                            class="hover-shadow">
+                    </div>
+                </div><br>
 
-                    <!-- The Modal/Lightbox -->
-                    <div id="myModal" class="modal">
-                        <span class="close cursor" onclick="closeModal()">&times;</span>
-                        <div class="modal-content">
-                            <div class="slideshow-container">
-                                <div class="mySlides">
-                                    <div class="numbertext">1 / 3</div>
-                                    <img src="./Resources/Images/perfomance.png" height="450px" alt="you have entered
-                                    the image carousel, to leave please click on the X in the upper
-                                    right corner of the screen">
-                                </div>
-
-                                <div class="mySlides">
-                                    <div class="numbertext">2 / 3</div>
-                                    <img src="./Resources/Images/stage.png" height="450px" alt="you have entered
-                                    the image carousel, to leave please click on the X in the upper
-                                    right corner of the screen">
-                                </div>
-
-                                <div class="mySlides">
-                                    <div class="numbertext">3 / 3</div>
-                                    <img src="./Resources/Images/script_read.png" height="450px" alt="you have entered
-                                    the image carousel, to leave please click on the X in the upper
-                                    right corner of the screen">
-                                </div>
-
-                                <!-- Next/previous controls -->
-                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
+                <!-- The Modal/Lightbox -->
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+                        <div class="slideshow-container">
+                            <div class="mySlides">
+                                <div class="numbertext">1 / 3</div>
+                                <img src="./Resources/Images/perfomance.png" height="450px" alt="you have entered
+                                the image carousel, to leave please click on the X in the upper
+                                right corner of the screen">
                             </div>
+
+                            <div class="mySlides">
+                                <div class="numbertext">2 / 3</div>
+                                <img src="./Resources/Images/stage.png" height="450px" alt="you have entered
+                                the image carousel, to leave please click on the X in the upper
+                                right corner of the screen">
+                            </div>
+
+                            <div class="mySlides">
+                                <div class="numbertext">3 / 3</div>
+                                <img src="./Resources/Images/script_read.png" height="450px" alt="you have entered
+                                the image carousel, to leave please click on the X in the upper
+                                right corner of the screen">
+                            </div>
+
+                            <!-- Next/previous controls -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
                         </div>
                     </div>
+                </div>
 
-                    <script src="./Resources/carousel.js"></script>
-                </section>
-            </td>
-            <td width="15%" class="nav">
-                <img src="./Resources/Images/hhs_logo.png" alt="Henderson High School logo" height="50px" class="logo">
-                <h2>Navigation</h2>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </td>
-        </tr>
-    </table>
+                <script src="./Resources/carousel.js"></script>
+            </section>
+        </section>
+        <section width="15%" class="nav">
+            <img src="./Resources/Images/hhs_logo.png" alt="Henderson High School logo" height="50px" class="logo">
+            <h2>Navigation</h2>
+            <nav><br class="lower">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul><br class="lower">
+            </nav>
+        </section>
+    </section>
     <footer>
         <h3>Site by Caio Torres Silveira</h3>
         Credit to sources given in metadata<br><br>
