@@ -8,7 +8,7 @@ header {
     text-align: center;
     color: rgb(255,210,0);
     font-weight: 900;
-    font-size: 2em;
+    font-size: 32px;
 }
 
 footer {
@@ -65,6 +65,11 @@ img {
     margin-bottom: 0%;
 }
 
+img.hover-shadow {
+    max-width: 100%;
+    height: auto;
+}
+
 div {
     display: flex;
     justify-content: center;
@@ -73,7 +78,7 @@ div {
 
 .info {
     margin: 0 10%;
-    text-align: justify;
+    text-align: left;
 }
 
 .row>.column {
@@ -106,8 +111,14 @@ div {
     background-color: rgba(0, 0, 0, 0);
     margin: auto;
     padding: 0;
-    width: 1100px;
-    max-width: 1200px;
+    width: 90%;
+    max-width: 1100px;
+}
+
+.modal-content img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 /* The Close Button */
@@ -129,7 +140,7 @@ div {
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
+    max-width: 100%;
     position: relative;
     margin: auto;
 }
@@ -236,4 +247,16 @@ img.hover-shadow {
 .contact em {
     font-weight: bold;
     font-style: normal;
+}
+
+@media only screen and (max-width: 450px) {
+  header {
+    font-size: 7vw;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  div {
+    flex-direction: column;
+  }
 }
